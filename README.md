@@ -1,22 +1,6 @@
 # Linked List vs Array Performance Comparison
 
-This project compares the speed and memory usage of linked lists and arrays in Python. It aims to provide insights into the performance characteristics of these two data structures for various operations such as insertion, deletion, and traversal.
-
-## Project Structure
-
-```
-linked-list-vs-array
-├── src
-│   ├── __init__.py
-│   ├── array_vs_linkedlist.py
-│   ├── linked_list.py
-│   └── utils.py
-├── tests
-│   ├── __init__.py
-│   └── test_array_vs_linkedlist.py
-├── requirements.txt
-└── README.md
-```
+This project compares the speed and memory usage of linked lists vs arrays and heaps vs binary trees in Python. It aims to provide insights into the performance characteristics of these four data structures for various operations such as insertion, deletion, and traversal.
 
 ## Setup
 
@@ -33,6 +17,13 @@ To compare the performance of arrays and linked lists, run the following command
 ```bash
 python src/array_vs_linkedlist.py
 ```
+
+to compare the performance of heaps and binary trees, run the following command:
+
+```bash
+python src/heap_vs_binary_tree.py
+```
+
 
 ## Running Tests
 
